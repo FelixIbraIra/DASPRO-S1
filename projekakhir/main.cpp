@@ -24,7 +24,7 @@ struct Reservasi {
     int durasi;
     int totalBiaya;
 };
-
+// jiass
 // ==========================================
 // 3. DEKLARASI FUNGSI (PROTOTYPE)
 // ==========================================
