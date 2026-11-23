@@ -25,6 +25,8 @@ struct Reservasi {
     int totalBiaya;
 };
 
+//kelompok terdebes
+
 // ==========================================
 // 3. DEKLARASI FUNGSI (PROTOTYPE)
 // ==========================================
