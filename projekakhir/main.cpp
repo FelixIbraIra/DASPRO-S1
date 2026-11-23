@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//hai aku nabil
+
 // ==========================================
 // 1. KONSTANTA ATURAN BISNIS
 // ==========================================
