@@ -1,0 +1,1622 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="upntJknCA3T72b2gMt2n">
+    <mxGraphModel dx="1720" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\n\nstart\n\n:count = 1, i = 1;\n\nwhile (Apakah\\ncount &lt;= 10?) is (Ya)\n  :Display i/\n  :i = i + 2\ncount = count + 1;\nendwhile (Tidak)\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-74">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="count = 1, i = 1" plantUmlId="action_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="count = 1, i = 1" id="7Fu0j7dlHB-aniHR2cMj-76">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-74" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="113" x="371.5" y="860" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;count &lt;= 10?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;count &lt;= 10?" id="7Fu0j7dlHB-aniHR2cMj-78">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-74" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="95" x="380.5" y="916" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-79">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-74" source="7Fu0j7dlHB-aniHR2cMj-76" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-78">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="896" as="sourcePoint" />
+              <mxPoint x="428" y="916" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-80">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-74" source="7Fu0j7dlHB-aniHR2cMj-78" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-81">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="944" as="sourcePoint" />
+              <mxPoint x="428" y="978" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label=" Display i" plantUmlId="action_7" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display i" id="7Fu0j7dlHB-aniHR2cMj-81">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-74" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="70" x="393" y="978" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = i + 2&#xa;count = count + 1" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = i + 2&#xa;count = count + 1" id="7Fu0j7dlHB-aniHR2cMj-82">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-74" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="53" width="128" x="364" y="1034" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-83">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-74" source="7Fu0j7dlHB-aniHR2cMj-81" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-82">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="1014" as="sourcePoint" />
+              <mxPoint x="428" y="1034" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_10" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-84">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-74" source="7Fu0j7dlHB-aniHR2cMj-82" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-78">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="428" y="1097" />
+                <mxPoint x="513" y="1097" />
+                <mxPoint x="513" y="930" />
+              </Array>
+              <mxPoint x="428" y="1087" as="sourcePoint" />
+              <mxPoint x="475.5" y="930" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-91" edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426.5" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-87" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#222222,#1E1E1E);direction=west;" value="Mulai" vertex="1">
+          <mxGeometry height="36" width="70" x="391.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-92" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="70" x="393" y="1140" as="geometry" />
+        </mxCell>
+        <UserObject label="Tidak" plantUmlId="e_14" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-85">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-78" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-92">
+            <mxGeometry relative="1" x="-0.878" as="geometry">
+              <Array as="points">
+                <mxPoint x="340" y="930" />
+                <mxPoint x="340" y="1113" />
+                <mxPoint x="428" y="1113" />
+              </Array>
+              <mxPoint x="380.5" y="930" as="sourcePoint" />
+              <mxPoint x="427.2" y="1130" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\n\nstart\n\n:i = 22;\n\nwhile (Apakah\\ni &lt; 40?) is (Ya)\n  :Display i/\n  :i = i + 2;\nendwhile (Tidak)\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-93">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="  i = 22" plantUmlId="action_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = 22" id="7Fu0j7dlHB-aniHR2cMj-95">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-93" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="56" x="371" y="1250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;i &lt; 40?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;i &lt; 40?" id="7Fu0j7dlHB-aniHR2cMj-97">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-93" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="64" x="367" y="1306" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-98">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-95" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-97">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="399" y="1286" as="sourcePoint" />
+              <mxPoint x="399" y="1306" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-99">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-97" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-100">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="399" y="1334" as="sourcePoint" />
+              <mxPoint x="399" y="1368" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label=" Display i" plantUmlId="action_7" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display i" id="7Fu0j7dlHB-aniHR2cMj-100">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-93" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="70" x="364" y="1368" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="   i = i + 2" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = i + 2" id="7Fu0j7dlHB-aniHR2cMj-101">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-93" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="69" x="364.5" y="1424" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-102">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-100" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-101">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="399" y="1404" as="sourcePoint" />
+              <mxPoint x="399" y="1424" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_10" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-103">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-101" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-97">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="399" y="1470" />
+                <mxPoint x="484" y="1470" />
+                <mxPoint x="484" y="1320" />
+              </Array>
+              <mxPoint x="399" y="1460" as="sourcePoint" />
+              <mxPoint x="431" y="1320" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_14" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-104">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-97" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-107">
+            <mxGeometry relative="1" x="-0.901" as="geometry">
+              <Array as="points">
+                <mxPoint x="340" y="1320" />
+                <mxPoint x="340" y="1486" />
+                <mxPoint x="399" y="1486" />
+              </Array>
+              <mxPoint x="367" y="1320" as="sourcePoint" />
+              <mxPoint x="399" y="1506" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-107" parent="7Fu0j7dlHB-aniHR2cMj-93" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="70" x="363.5" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-108" edge="1" parent="7Fu0j7dlHB-aniHR2cMj-93" source="7Fu0j7dlHB-aniHR2cMj-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-124" parent="7Fu0j7dlHB-aniHR2cMj-93" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="70" x="384" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-145" parent="7Fu0j7dlHB-aniHR2cMj-93" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="67" x="394.5" y="2480" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-146" parent="7Fu0j7dlHB-aniHR2cMj-93" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#222222,#1E1E1E);direction=west;" value="Mulai" vertex="1">
+          <mxGeometry height="36" width="70" x="393" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-106" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#222222,#1E1E1E);direction=west;" value="Mulai" vertex="1">
+          <mxGeometry height="36" width="70" x="364" y="1184" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-96">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-106" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-95">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="399" y="1230" as="sourcePoint" />
+              <mxPoint x="399" y="1250" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:total = 0, i = 1;\n\nwhile (Apakah\\ni &lt;= 100?) is (Ya)\n  :total = total + i;\n  :i = i + 1;\nendwhile (Tidak)\n\n:Display total/\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-109">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="total = 0, i = 1" plantUmlId="action_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="total = 0, i = 1" id="7Fu0j7dlHB-aniHR2cMj-111">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-109" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="107" x="365.5" y="1630" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-112">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-125" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-111">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="1610" as="sourcePoint" />
+              <mxPoint x="419" y="1630" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;i &lt;= 100?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;i &lt;= 100?" id="7Fu0j7dlHB-aniHR2cMj-113">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-109" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="75" x="381.5" y="1686" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-114">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-111" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-113">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="1666" as="sourcePoint" />
+              <mxPoint x="419" y="1686" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-115">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-113" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-116">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="1714" as="sourcePoint" />
+              <mxPoint x="419" y="1748" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="total = total + i" plantUmlId="action_7" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="total = total + i" id="7Fu0j7dlHB-aniHR2cMj-116">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-109" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="111" x="363.5" y="1748" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = i + 1" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = i + 1" id="7Fu0j7dlHB-aniHR2cMj-117">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-109" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="69" x="384.5" y="1804" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-118">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-116" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-117">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="1784" as="sourcePoint" />
+              <mxPoint x="419" y="1804" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_10" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-119">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-117" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-113">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="419" y="1850" />
+                <mxPoint x="504" y="1850" />
+                <mxPoint x="504" y="1700" />
+              </Array>
+              <mxPoint x="419" y="1840" as="sourcePoint" />
+              <mxPoint x="456.5" y="1700" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_14" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-120">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-109" source="7Fu0j7dlHB-aniHR2cMj-113" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-121">
+            <mxGeometry relative="1" x="-0.865" as="geometry">
+              <Array as="points">
+                <mxPoint x="340" y="1700" />
+                <mxPoint x="340" y="1866" />
+                <mxPoint x="419" y="1866" />
+              </Array>
+              <mxPoint x="381.5" y="1700" as="sourcePoint" />
+              <mxPoint x="419" y="1886" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display total" plantUmlId="action_17" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display total" id="7Fu0j7dlHB-aniHR2cMj-121">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-109" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="93" x="372.5" y="1886" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-125" parent="7Fu0j7dlHB-aniHR2cMj-109" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#222222,#1E1E1E);direction=west;" value="Mulai" vertex="1">
+          <mxGeometry height="36" width="70" x="384" y="1570" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlId="e_20" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-123">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-121" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-124">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="1922" as="sourcePoint" />
+              <mxPoint x="418.3343597643941" y="1942.0184757590932" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:n1 = 0, n2 = 1, count = 1;\n\nwhile (Apakah\\ncount &lt;= 10?) is (Ya)\n  :Display n1/\n  :n3 = n1 + n2;\n  :n1 = n2;\n  :n2 = n3;\n  :count = count + 1;\nendwhile (Tidak)\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-126">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="    n1 = 0, n2 = 1, count = 1" plantUmlId="action_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="n1 = 0, n2 = 1, count = 1" id="7Fu0j7dlHB-aniHR2cMj-128">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="172" x="342" y="2060" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;count &lt;= 10?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;count &lt;= 10?" id="7Fu0j7dlHB-aniHR2cMj-130">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="95" x="380.5" y="2116" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-131">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-128" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-130">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2096" as="sourcePoint" />
+              <mxPoint x="428" y="2116" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-132">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-130" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-133">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2144" as="sourcePoint" />
+              <mxPoint x="428" y="2178" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="  Display n1" plantUmlId="action_7" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display n1" id="7Fu0j7dlHB-aniHR2cMj-133">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="81" x="387.5" y="2178" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="   n3 = n1 + n2" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="n3 = n1 + n2" id="7Fu0j7dlHB-aniHR2cMj-134">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="99" x="378.5" y="2234" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-135">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-133" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-134">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2214" as="sourcePoint" />
+              <mxPoint x="428" y="2234" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="  n1 = n2" plantUmlId="action_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="n1 = n2" id="7Fu0j7dlHB-aniHR2cMj-136">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="67" x="394.5" y="2290" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-137">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-134" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-136">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2270" as="sourcePoint" />
+              <mxPoint x="428" y="2290" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="  n2 = n3" plantUmlId="action_12" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="n2 = n3" id="7Fu0j7dlHB-aniHR2cMj-138">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="67" x="394.5" y="2346" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_13" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-139">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-136" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-138">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2326" as="sourcePoint" />
+              <mxPoint x="428" y="2346" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="   count = count + 1" plantUmlId="action_14" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="count = count + 1" id="7Fu0j7dlHB-aniHR2cMj-140">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-126" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="128" x="364" y="2402" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_15" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-141">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-138" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-140">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428" y="2382" as="sourcePoint" />
+              <mxPoint x="428" y="2402" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_16" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-142">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-126" source="7Fu0j7dlHB-aniHR2cMj-140" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-130">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="428" y="2448" />
+                <mxPoint x="513" y="2448" />
+                <mxPoint x="513" y="2130" />
+              </Array>
+              <mxPoint x="428" y="2438" as="sourcePoint" />
+              <mxPoint x="475.5" y="2130" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_20" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-143">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-130" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-145">
+            <mxGeometry relative="1" x="-0.916" as="geometry">
+              <Array as="points">
+                <mxPoint x="340" y="2130" />
+                <mxPoint x="340" y="2464" />
+                <mxPoint x="428" y="2464" />
+              </Array>
+              <mxPoint x="380.5" y="2130" as="sourcePoint" />
+              <mxPoint x="428" y="2484" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-129">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-146" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-128">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="428.4646139935538" y="2039.9892008614065" as="sourcePoint" />
+              <mxPoint x="428" y="2060" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:Read bil/\n\nif (Apakah\\nbil &lt;= 1?) then (Ya)\n  :Display \&quot;Bukan Prima\&quot;/\n  stop\nelse (Tidak)\n  :pembagi = 0, i = 1;\n  \n  while (Apakah\\ni &lt;= bil?) is (Ya)\n    if (Apakah\\nbil MOD i == 0?) then (Ya)\n      :pembagi = pembagi + 1;\n    else (Tidak)\n    endif\n    :i = i + 1;\n  endwhile (Tidak)\n  \n  if (Apakah\\npembagi == 2?) then (Ya)\n    :Display \&quot;Bilangan Prima\&quot;/\n  else (Tidak)\n    :Display \&quot;Bukan Prima\&quot;/\n  endif\n  \n  stop\nendif\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-147">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;strokeColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="start_0" plantUmlBaseStyle="ellipse;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-148">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="ellipse;fillColor=#222222;strokeColor=light-dark(#000000,#000000);shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="20" width="20" x="492.5" y="2560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Read bil" plantUmlId="action_1" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Read bil" id="7Fu0j7dlHB-aniHR2cMj-149">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="67" x="469" y="2600" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-150">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-148" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-149">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="502.5" y="2580" as="sourcePoint" />
+              <mxPoint x="502.5" y="2600" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;bil &lt;= 1?" plantUmlId="diamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;bil &lt;= 1?" id="7Fu0j7dlHB-aniHR2cMj-151">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="71" x="467" y="2656" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-152">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-149" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-151">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="502.5" y="2636" as="sourcePoint" />
+              <mxPoint x="502.5" y="2656" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-153">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-151" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-154">
+            <mxGeometry relative="1" x="-0.389" as="geometry">
+              <Array as="points">
+                <mxPoint x="413.5" y="2670" />
+              </Array>
+              <mxPoint x="467" y="2670" as="sourcePoint" />
+              <mxPoint x="413.5" y="2704" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bukan Prima&quot;" plantUmlId="action_8" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bukan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-154">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="147" x="340" y="2704" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_10" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-156">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-154" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-182">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="413.5" y="2740" as="sourcePoint" />
+              <mxPoint x="414.2259407247791" y="2760.021978041143" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-157">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-151" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-158">
+            <mxGeometry relative="1" x="-0.184" as="geometry">
+              <Array as="points">
+                <mxPoint x="688.5" y="2670" />
+              </Array>
+              <mxPoint x="538" y="2670" as="sourcePoint" />
+              <mxPoint x="688.5" y="2704" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = 0, i = 1" plantUmlId="action_13" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="pembagi = 0, i = 1" id="7Fu0j7dlHB-aniHR2cMj-158">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="131" x="623" y="2704" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;i &lt;= bil?" plantUmlId="wdiamond_15" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;i &lt;= bil?" id="7Fu0j7dlHB-aniHR2cMj-159">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="67" x="655" y="2760" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_16" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-160">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-158" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-159">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="688.5" y="2740" as="sourcePoint" />
+              <mxPoint x="688.5" y="2760" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_17" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-161">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-159" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-162">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="688.5" y="2788" as="sourcePoint" />
+              <mxPoint x="688.5" y="2822" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;bil MOD i == 0?" plantUmlId="diamond_19" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;bil MOD i == 0?" id="7Fu0j7dlHB-aniHR2cMj-162">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="110" x="633.5" y="2822" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_20" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-163">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-162" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-164">
+            <mxGeometry relative="1" x="-0.382" as="geometry">
+              <Array as="points">
+                <mxPoint x="688.5" y="2836" />
+              </Array>
+              <mxPoint x="633.5" y="2836" as="sourcePoint" />
+              <mxPoint x="688.5" y="2870" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = pembagi + 1" plantUmlId="action_22" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="pembagi = pembagi + 1" id="7Fu0j7dlHB-aniHR2cMj-164">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="163" x="607" y="2870" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="merge_23" plantUmlBaseStyle="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-165">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="rhombus;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="676.5" y="2926" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_24" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-166">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-164" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-165">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="688.5" y="2906" as="sourcePoint" />
+              <mxPoint x="688.5" y="2926" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = i + 1" plantUmlId="action_25" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = i + 1" id="7Fu0j7dlHB-aniHR2cMj-167">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="69" x="654" y="2970" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_26" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-168">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-165" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-167">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="688.5" y="2950" as="sourcePoint" />
+              <mxPoint x="688.5" y="2970" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_27" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-169">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-167" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-159">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="688.5" y="3016" />
+                <mxPoint x="821.5" y="3016" />
+                <mxPoint x="821.5" y="2774" />
+              </Array>
+              <mxPoint x="688.5" y="3006" as="sourcePoint" />
+              <mxPoint x="722" y="2774" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_31" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-170">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-159" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-171">
+            <mxGeometry relative="1" x="-0.796" as="geometry">
+              <Array as="points">
+                <mxPoint x="547.5" y="2774" />
+                <mxPoint x="547.5" y="3032" />
+                <mxPoint x="688.5" y="3032" />
+              </Array>
+              <mxPoint x="655" y="2774" as="sourcePoint" />
+              <mxPoint x="688.5" y="3052" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;pembagi == 2?" plantUmlId="diamond_35" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;pembagi == 2?" id="7Fu0j7dlHB-aniHR2cMj-171">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="106" x="635.5" y="3052" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_37" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-172">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-171" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-173">
+            <mxGeometry relative="1" x="-0.442" as="geometry">
+              <Array as="points">
+                <mxPoint x="592.5" y="3066" />
+              </Array>
+              <mxPoint x="635.5" y="3066" as="sourcePoint" />
+              <mxPoint x="592.5" y="3100" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bilangan Prima&quot;" plantUmlId="action_39" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bilangan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-173">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="161" x="512" y="3100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_40" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-174">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-171" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-175">
+            <mxGeometry relative="1" x="-0.479" as="geometry">
+              <Array as="points">
+                <mxPoint x="778.5" y="3066" />
+              </Array>
+              <mxPoint x="741.5" y="3066" as="sourcePoint" />
+              <mxPoint x="778.5" y="3100" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bukan Prima&quot;" plantUmlId="action_42" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bukan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-175">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="147" x="705" y="3100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="merge_43" plantUmlBaseStyle="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-176">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="rhombus;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="676.5" y="3156" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_44" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-177">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-173" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-176">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="592.5" y="3168" />
+              </Array>
+              <mxPoint x="592.5" y="3136" as="sourcePoint" />
+              <mxPoint x="676.5" y="3168" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_46" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-178">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-175" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-176">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="778.5" y="3168" />
+              </Array>
+              <mxPoint x="778.5" y="3136" as="sourcePoint" />
+              <mxPoint x="700.5" y="3168" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="stop_48" plantUmlBaseStyle="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-179">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-147" style="ellipse;shape=endState;fillColor=#222222;strokeColor=light-dark(#000000,#000000);shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="676.5" y="3200" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_49" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-180">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-147" source="7Fu0j7dlHB-aniHR2cMj-176" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-179">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="688.5" y="3180" as="sourcePoint" />
+              <mxPoint x="688.5" y="3200" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-182" parent="7Fu0j7dlHB-aniHR2cMj-147" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);strokeColor=light-dark(#000000,#000000);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="67" x="380" y="2760" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:Read bil/\n\nif (Apakah\\nbil &lt;= 1?) then (Ya)\n  :Display \&quot;Bukan Prima\&quot;/\n  stop\nelse (Tidak)\n  :pembagi = 0, i = 1;\n  \n  while (Apakah\\ni &lt;= bil?) is (Ya)\n    if (Apakah\\nbil MOD i == 0?) then (Ya)\n      :pembagi = pembagi + 1;\n    else (Tidak)\n    endif\n    :i = i + 1;\n  endwhile (Tidak)\n  \n  if (Apakah\\npembagi == 2?) then (Ya)\n    :Display \&quot;Bilangan Prima\&quot;/\n  else (Tidak)\n    :Display \&quot;Bukan Prima\&quot;/\n  endif\n  \n  stop\nendif\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-183">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="start_0" plantUmlBaseStyle="ellipse;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-184">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="ellipse;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="20" width="20" x="1112.5" y="3270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Read bil" plantUmlId="action_1" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Read bil" id="7Fu0j7dlHB-aniHR2cMj-185">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="67" x="1089" y="3310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-186">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-184" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-185">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1122.5" y="3290" as="sourcePoint" />
+              <mxPoint x="1122.5" y="3310" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;bil &lt;= 1?" plantUmlId="diamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;bil &lt;= 1?" id="7Fu0j7dlHB-aniHR2cMj-187">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="71" x="1087" y="3366" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-188">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-185" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-187">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1122.5" y="3346" as="sourcePoint" />
+              <mxPoint x="1122.5" y="3366" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-189">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-187" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-190">
+            <mxGeometry relative="1" x="-0.389" as="geometry">
+              <Array as="points">
+                <mxPoint x="1033.5" y="3380" />
+              </Array>
+              <mxPoint x="1087" y="3380" as="sourcePoint" />
+              <mxPoint x="1033.5" y="3414" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bukan Prima&quot;" plantUmlId="action_8" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bukan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-190">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="147" x="960" y="3414" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="stop_9" plantUmlBaseStyle="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-191">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="1021.5" y="3470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_10" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-192">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-190" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-191">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1033.5" y="3450" as="sourcePoint" />
+              <mxPoint x="1033.5" y="3470" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-193">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-187" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-194">
+            <mxGeometry relative="1" x="-0.184" as="geometry">
+              <Array as="points">
+                <mxPoint x="1308.5" y="3380" />
+              </Array>
+              <mxPoint x="1158" y="3380" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3414" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = 0, i = 1" plantUmlId="action_13" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="pembagi = 0, i = 1" id="7Fu0j7dlHB-aniHR2cMj-194">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="131" x="1243" y="3414" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;i &lt;= bil?" plantUmlId="wdiamond_15" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;i &lt;= bil?" id="7Fu0j7dlHB-aniHR2cMj-195">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="67" x="1275" y="3470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_16" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-196">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-194" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-195">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1308.5" y="3450" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3470" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_17" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-197">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-195" style="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-198">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1308.5" y="3498" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3532" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;bil MOD i == 0?" plantUmlId="diamond_19" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;bil MOD i == 0?" id="7Fu0j7dlHB-aniHR2cMj-198">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="110" x="1253.5" y="3532" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_20" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-199">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-198" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-200">
+            <mxGeometry relative="1" x="-0.382" as="geometry">
+              <Array as="points" />
+              <mxPoint x="1253.5" y="3546" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3580" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = pembagi + 1" plantUmlId="action_22" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="pembagi = pembagi + 1" id="7Fu0j7dlHB-aniHR2cMj-200">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="163" x="1227" y="3580" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="merge_23" plantUmlBaseStyle="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-201">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="1296.5" y="3636" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_24" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-202">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-200" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-201">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1308.5" y="3616" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3636" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = i + 1" plantUmlId="action_25" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="i = i + 1" id="7Fu0j7dlHB-aniHR2cMj-203">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="69" x="1274" y="3680" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_26" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-204">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-201" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-203">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1308.5" y="3660" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3680" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_27" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-205">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-203" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-195">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1308.5" y="3726" />
+                <mxPoint x="1441.5" y="3726" />
+                <mxPoint x="1441.5" y="3484" />
+              </Array>
+              <mxPoint x="1308.5" y="3716" as="sourcePoint" />
+              <mxPoint x="1342" y="3484" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_31" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-206">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-195" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-207">
+            <mxGeometry relative="1" x="-0.796" as="geometry">
+              <Array as="points">
+                <mxPoint x="1167.5" y="3484" />
+                <mxPoint x="1167.5" y="3742" />
+                <mxPoint x="1308.5" y="3742" />
+              </Array>
+              <mxPoint x="1275" y="3484" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3762" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;pembagi == 2?" plantUmlId="diamond_35" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;pembagi == 2?" id="7Fu0j7dlHB-aniHR2cMj-207">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="106" x="1255.5" y="3762" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_37" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-208">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-207" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-209">
+            <mxGeometry relative="1" x="-0.442" as="geometry">
+              <Array as="points">
+                <mxPoint x="1212.5" y="3776" />
+              </Array>
+              <mxPoint x="1255.5" y="3776" as="sourcePoint" />
+              <mxPoint x="1212.5" y="3810" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bilangan Prima&quot;" plantUmlId="action_39" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bilangan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-209">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="161" x="1132" y="3810" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_40" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-210">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-207" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-211">
+            <mxGeometry relative="1" x="-0.479" as="geometry">
+              <Array as="points">
+                <mxPoint x="1398.5" y="3776" />
+              </Array>
+              <mxPoint x="1361.5" y="3776" as="sourcePoint" />
+              <mxPoint x="1398.5" y="3810" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display &quot;Bukan Prima&quot;" plantUmlId="action_42" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display &quot;Bukan Prima&quot;" id="7Fu0j7dlHB-aniHR2cMj-211">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="147" x="1325" y="3810" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="merge_43" plantUmlBaseStyle="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-212">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="rhombus;fillColor=#F1F1F1;strokeColor=#181818;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="1296.5" y="3866" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_44" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-213">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-209" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-212">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1212.5" y="3878" />
+              </Array>
+              <mxPoint x="1212.5" y="3846" as="sourcePoint" />
+              <mxPoint x="1296.5" y="3878" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_46" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-214">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-211" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-212">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1398.5" y="3878" />
+              </Array>
+              <mxPoint x="1398.5" y="3846" as="sourcePoint" />
+              <mxPoint x="1320.5" y="3878" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="stop_48" plantUmlBaseStyle="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-215">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-183" style="ellipse;shape=endState;fillColor=#222222;strokeColor=#222222;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="24" width="24" x="1296.5" y="3910" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_49" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-216">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-183" source="7Fu0j7dlHB-aniHR2cMj-212" style="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-215">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1308.5" y="3890" as="sourcePoint" />
+              <mxPoint x="1308.5" y="3910" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TD\n    A([Mulai]) --&gt; B[/Input bil/]\n    B --&gt; C[pembagi = 0]\n    C --&gt; D{bil &lt;= 1?}\n    \n    %% Jika bil &lt;= 1\n    D -- Ya --&gt; E[/Print &#39;Bukan Prima&#39;/]\n    E --&gt; Z([Selesai])\n    \n    %% Jika bil &gt; 1\n    D -- Tidak --&gt; F[i = 1]\n    F --&gt; G{i &lt;= bil?}\n    \n    %% Loop FOR\n    G -- Ya --&gt; H{bil MOD i == 0?}\n    H -- Ya --&gt; I[pembagi = pembagi + 1]\n    H -- Tidak --&gt; J[i = i + 1]\n    I --&gt; J\n    J --&gt; G\n    \n    %% Setelah Loop selesai\n    G -- Tidak --&gt; K{pembagi == 2?}\n    K -- Ya --&gt; L[/Print &#39;Bilangan Prima&#39;/]\n    K -- Tidak --&gt; M[/Print &#39;Bukan Prima&#39;/]\n    \n    L --&gt; Z\n    M --&gt; Z&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-218">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;strokeColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mulai" mermaidId="n:A" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Mulai" id="7Fu0j7dlHB-aniHR2cMj-219">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="62" x="1175" y="4040" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Input bil" mermaidId="n:B" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Input bil" id="7Fu0j7dlHB-aniHR2cMj-220">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="114" x="1149" y="4129" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = 0" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pembagi = 0" id="7Fu0j7dlHB-aniHR2cMj-221">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="147" x="1132" y="4218" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bil &lt;= 1?" mermaidId="n:D" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="bil &lt;= 1?" id="7Fu0j7dlHB-aniHR2cMj-222">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="110" width="110" x="1150" y="4322" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Print &#39;Bukan Prima&#39;" mermaidId="n:E" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Print &#39;Bukan Prima&#39;" id="7Fu0j7dlHB-aniHR2cMj-223">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="186" x="710" y="5039" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Selesai" mermaidId="n:Z" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Selesai" id="7Fu0j7dlHB-aniHR2cMj-224">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="73" x="1012" y="5143" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = 1" mermaidId="n:F" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="i = 1" id="7Fu0j7dlHB-aniHR2cMj-225">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="91" x="1479" y="4501" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="i &lt;= bil?" mermaidId="n:G" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="i &lt;= bil?" id="7Fu0j7dlHB-aniHR2cMj-226">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="104" width="104" x="1472" y="4605" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="bil MOD i == 0?" mermaidId="n:H" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="bil MOD i == 0?" id="7Fu0j7dlHB-aniHR2cMj-227">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="184" width="184" x="1432" y="4778" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi = pembagi + 1" mermaidId="n:I" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pembagi = pembagi + 1" id="7Fu0j7dlHB-aniHR2cMj-228">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="226" x="1495" y="5031" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="i = i + 1" mermaidId="n:J" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="i = i + 1" id="7Fu0j7dlHB-aniHR2cMj-229">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="114" x="1551" y="5135" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pembagi == 2?" mermaidId="n:K" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pembagi == 2?" id="7Fu0j7dlHB-aniHR2cMj-230">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="179" width="179" x="1081" y="4781" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Print &#39;Bilangan Prima&#39;" mermaidId="n:L" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Print &#39;Bilangan Prima&#39;" id="7Fu0j7dlHB-aniHR2cMj-231">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="204" x="946" y="5039" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Print &#39;Bukan Prima&#39;" mermaidId="n:M" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Print &#39;Bukan Prima&#39;" id="7Fu0j7dlHB-aniHR2cMj-232">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="186" x="1200" y="5039" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-233">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-219" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-220">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-234">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-220" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-221">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:C-&gt;D#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.51;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-235">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-221" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-222">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:D-&gt;E#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.62;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-236">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-222" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.62;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-223">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="803" y="4467" />
+                <mxPoint x="803" y="4528" />
+                <mxPoint x="803" y="4580" />
+                <mxPoint x="803" y="4657" />
+                <mxPoint x="803" y="4744" />
+                <mxPoint x="803" y="4870" />
+                <mxPoint x="803" y="4997" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:E-&gt;Z#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0;entryY=0.31;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-237">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-223" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0;entryY=0.31;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-224">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="803" y="5110" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:D-&gt;F#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.65;entryX=0.49;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-238">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-222" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.65;entryX=0.49;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-225">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1524" y="4467" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:F-&gt;G#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.49;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-239">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-225" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-226">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:G-&gt;H#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-240">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-226" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-227">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:H-&gt;I#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.83;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-241">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-227" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.83;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-228">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1608" y="4997" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:H-&gt;J#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.17;exitY=1;entryX=0;entryY=0.19;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-242">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-227" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.17;exitY=1;entryX=0;entryY=0.19;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-229">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1441" y="4997" />
+                <mxPoint x="1441" y="5058" />
+                <mxPoint x="1441" y="5110" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:I-&gt;J#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-243">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-228" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-229">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:J-&gt;G#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.13;entryX=1;entryY=0.69;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-244">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-229" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.13;entryX=1;entryY=0.69;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-226">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1756" y="5110" />
+                <mxPoint x="1756" y="5058" />
+                <mxPoint x="1756" y="4997" />
+                <mxPoint x="1756" y="4870" />
+                <mxPoint x="1756" y="4744" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:G-&gt;K#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.63;entryX=0.5;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-245">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-226" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.63;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-230">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1171" y="4744" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:K-&gt;L#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.02;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-246">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-230" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.02;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-231">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1048" y="4997" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:K-&gt;M#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.98;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-247">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-230" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.98;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-232">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1293" y="4997" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:L-&gt;Z#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.49;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-248">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-231" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-224">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:M-&gt;Z#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.31;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-249">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-218" source="7Fu0j7dlHB-aniHR2cMj-232" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=1;entryY=0.31;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-224">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1293" y="5110" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Selesai" mermaidId="n:Z" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Selesai" id="7Fu0j7dlHB-aniHR2cMj-267">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-218" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="73" x="1022" y="5153" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:Read a, Read b/\n\nwhile (Apakah\\nb != 0?) is (Ya)\n  :temp = b;\n  :b = a MOD b;\n  :a = temp;\nendwhile (Tidak)\n\n:Display a/\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-250">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Read a, Read b" plantUmlId="action_1" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Read a, Read b" id="7Fu0j7dlHB-aniHR2cMj-252">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="106" x="368" y="5270" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Apakah&#xa;b != 0?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Apakah&#xa;b != 0?" id="7Fu0j7dlHB-aniHR2cMj-254">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="64" x="389" y="5326" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-255">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-252" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-254">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5306" as="sourcePoint" />
+              <mxPoint x="421" y="5326" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-256">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-254" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-257">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5354" as="sourcePoint" />
+              <mxPoint x="421" y="5388" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="temp = b" plantUmlId="action_7" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="temp = b" id="7Fu0j7dlHB-aniHR2cMj-257">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="75" x="383.5" y="5388" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="b = a MOD b" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="b = a MOD b" id="7Fu0j7dlHB-aniHR2cMj-258">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="95" x="373.5" y="5444" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-259">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-257" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-258">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5424" as="sourcePoint" />
+              <mxPoint x="421" y="5444" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="a = temp" plantUmlId="action_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="a = temp" id="7Fu0j7dlHB-aniHR2cMj-260">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="74" x="384" y="5500" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-261">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-258" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-260">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5480" as="sourcePoint" />
+              <mxPoint x="421" y="5500" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_12" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-262">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-260" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-254">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="421" y="5546" />
+                <mxPoint x="506" y="5546" />
+                <mxPoint x="506" y="5340" />
+              </Array>
+              <mxPoint x="421" y="5536" as="sourcePoint" />
+              <mxPoint x="453" y="5340" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_16" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-263">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-250" source="7Fu0j7dlHB-aniHR2cMj-254" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-264">
+            <mxGeometry relative="1" x="-0.889" as="geometry">
+              <Array as="points">
+                <mxPoint x="350" y="5340" />
+                <mxPoint x="350" y="5562" />
+                <mxPoint x="421" y="5562" />
+              </Array>
+              <mxPoint x="389" y="5340" as="sourcePoint" />
+              <mxPoint x="421" y="5582" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Display a" plantUmlId="action_19" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="Display a" id="7Fu0j7dlHB-aniHR2cMj-264">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-250" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="73" x="384.5" y="5582" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-253">
+          <mxCell edge="1" parent="1" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-252">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5246.000000000001" as="sourcePoint" />
+              <mxPoint x="421" y="5270" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_22" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-266">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-264" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="421" y="5618" as="sourcePoint" />
+              <mxPoint x="421" y="5640" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam monochrome true\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam ArrowColor black\n\nstart\n\n:a = 16\nb = 20;\n\nwhile (b != 0?) is (Ya)\n  :sisa = a MOD b;\n  :a = b;\n  :b = sisa;\nendwhile (Tidak)\n\n:PRINT a/\n\nstop\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-287">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="a = 16&#xa;b = 20" plantUmlId="action_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="a = 16&#xa;b = 20" id="7Fu0j7dlHB-aniHR2cMj-289">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="53" width="60" x="389" y="5760" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="b != 0?" plantUmlId="wdiamond_4" plantUmlBaseStyle="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" plantUmlBaseValue="b != 0?" id="7Fu0j7dlHB-aniHR2cMj-291">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="shape=hexagon;perimeter=hexagonPerimeter2;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);whiteSpace=wrap;fontSize=11;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="28" width="62" x="388" y="5833" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_5" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-292">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-289" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-291">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="5813" as="sourcePoint" />
+              <mxPoint x="419" y="5833" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" plantUmlId="e_6" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-293">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-291" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontSize=11;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-294">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="5861" as="sourcePoint" />
+              <mxPoint x="419" y="5895" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="sisa = a MOD b" plantUmlId="action_7" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="sisa = a MOD b" id="7Fu0j7dlHB-aniHR2cMj-294">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="110" x="364" y="5895" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="a = b" plantUmlId="action_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="a = b" id="7Fu0j7dlHB-aniHR2cMj-295">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="51" x="393.5" y="5951" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_9" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-296">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-294" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-295">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="5931" as="sourcePoint" />
+              <mxPoint x="419" y="5951" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="b = sisa" plantUmlId="action_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="b = sisa" id="7Fu0j7dlHB-aniHR2cMj-297">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="rounded=1;absoluteArcSize=1;arcSize=0;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="67" x="385.5" y="6007" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_11" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-298">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-295" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-297">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="5987" as="sourcePoint" />
+              <mxPoint x="419" y="6007" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="e_12" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-299">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-297" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-291">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="419" y="6053" />
+                <mxPoint x="504" y="6053" />
+                <mxPoint x="504" y="5847" />
+              </Array>
+              <mxPoint x="419" y="6043" as="sourcePoint" />
+              <mxPoint x="450" y="5847" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" plantUmlId="e_16" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-300">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-287" source="7Fu0j7dlHB-aniHR2cMj-291" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;rounded=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="7Fu0j7dlHB-aniHR2cMj-301">
+            <mxGeometry relative="1" x="-0.87" as="geometry">
+              <Array as="points">
+                <mxPoint x="340" y="5847" />
+                <mxPoint x="340" y="6069" />
+                <mxPoint x="419" y="6069" />
+              </Array>
+              <mxPoint x="388" y="5847" as="sourcePoint" />
+              <mxPoint x="419" y="6089" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="PRINT a" plantUmlId="action_19" plantUmlBaseStyle="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" plantUmlBaseValue="PRINT a" id="7Fu0j7dlHB-aniHR2cMj-301">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-287" style="shape=parallelogram;size=10;fixedSize=1;fillColor=#F1F1F1;strokeColor=light-dark(#000000,#000000);strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;shadow=0;fontFamily=Arial;" vertex="1">
+            <mxGeometry height="36" width="65" x="386.5" y="6089" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-304" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#1E1E1E);strokeColor=light-dark(#000000,#000000);" value="Selesai" vertex="1">
+          <mxGeometry height="36" width="67" x="385.5" y="6150" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlId="e_22" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-303">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-301" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-304">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="419" y="6125" as="sourcePoint" />
+              <mxPoint x="419" y="6145" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="7Fu0j7dlHB-aniHR2cMj-305" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#222222,#1E1E1E);direction=west;strokeColor=light-dark(#000000,#000000);" value="Mulai" vertex="1">
+          <mxGeometry height="36" width="70" x="384" y="5700" as="geometry" />
+        </mxCell>
+        <UserObject label="" plantUmlId="e_2" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#000000;fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-290">
+          <mxCell edge="1" parent="1" source="7Fu0j7dlHB-aniHR2cMj-305" style="endArrow=classic;endSize=8;strokeColor=light-dark(#000000,#000000);fontFamily=Arial;curved=0;rounded=0;fontSize=11;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="7Fu0j7dlHB-aniHR2cMj-289">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+              <mxPoint x="419.49" y="5740" as="sourcePoint" />
+              <mxPoint x="419" y="5760" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;%%{init: {&#39;theme&#39;: &#39;base&#39;, &#39;themeVariables&#39;: { &#39;primaryColor&#39;: &#39;#ffffff&#39;, &#39;primaryTextColor&#39;: &#39;#000000&#39;, &#39;primaryBorderColor&#39;: &#39;#000000&#39;, &#39;lineColor&#39;: &#39;#000000&#39;, &#39;tertiaryColor&#39;: &#39;#ffffff&#39;}}}%%\nflowchart TD\n    Start([Start]) --&gt; Init[totalPendapatan = 0&lt;br/&gt;pendapatanTertinggi = 0&lt;br/&gt;hariMelebihi1Juta = 0&lt;br/&gt;hari = 1]\n    \n    Init --&gt; CondHari{hari &lt;= 7?}\n    \n    CondHari -- Ya --&gt; InputPend[/Input pendapatan/]\n    InputPend --&gt; AddTotal[totalPendapatan = totalPendapatan + pendapatan]\n    \n    AddTotal --&gt; CondHari1{hari == 1?}\n    CondHari1 -- Ya --&gt; SetMaxFirst[pendapatanTertinggi = pendapatan]\n    CondHari1 -- Tidak --&gt; CondMax{pendapatan &gt; pendapatanTertinggi?}\n    \n    CondMax -- Ya --&gt; SetMax[pendapatanTertinggi = pendapatan]\n    CondMax -- Tidak --&gt; CondJuta\n    SetMaxFirst --&gt; CondJuta{pendapatan &gt; 1000000?}\n    SetMax --&gt; CondJuta\n    \n    CondJuta -- Ya --&gt; IncJuta[hariMelebihi1Juta = hariMelebihi1Juta + 1]\n    CondJuta -- Tidak --&gt; IncHari[hari = hari + 1]\n    IncJuta --&gt; IncHari\n    \n    IncHari --&gt; CondHari\n    \n    CondHari -- Tidak --&gt; CalcAvg[rataRata = totalPendapatan / 7]\n    CalcAvg --&gt; PrintRes[/Print totalPendapatan,&lt;br/&gt;rataRata, pendapatanTertinggi,&lt;br/&gt;hariMelebihi1Juta/]\n    PrintRes --&gt; End([End])&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7Fu0j7dlHB-aniHR2cMj-306">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;strokeColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Start" mermaidId="n:Start" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Start" id="7Fu0j7dlHB-aniHR2cMj-307">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="60" x="1165" y="6220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="totalPendapatan = 0&#xa;pendapatanTertinggi = 0&#xa;hariMelebihi1Juta = 0&#xa;hari = 1" mermaidId="n:Init" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="totalPendapatan = 0&#xa;pendapatanTertinggi = 0&#xa;hariMelebihi1Juta = 0&#xa;hari = 1" id="7Fu0j7dlHB-aniHR2cMj-308">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="112" width="233" x="1078" y="6309" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="hari &lt;= 7?" mermaidId="n:CondHari" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="hari &lt;= 7?" id="7Fu0j7dlHB-aniHR2cMj-309">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="126" width="126" x="1132" y="6471" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Input pendapatan" mermaidId="n:InputPend" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Input pendapatan" id="7Fu0j7dlHB-aniHR2cMj-310">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=19.5;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="181" x="689" y="6674" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="totalPendapatan = totalPendapatan + pendapatan" mermaidId="n:AddTotal" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="totalPendapatan = totalPendapatan + pendapatan" id="7Fu0j7dlHB-aniHR2cMj-311">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="417" x="571" y="6780" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="hari == 1?" mermaidId="n:CondHari1" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="hari == 1?" id="7Fu0j7dlHB-aniHR2cMj-312">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="126" width="126" x="717" y="6893" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pendapatanTertinggi = pendapatan" mermaidId="n:SetMaxFirst" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pendapatanTertinggi = pendapatan" id="7Fu0j7dlHB-aniHR2cMj-313">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="310" x="340" y="7582" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pendapatan &gt; pendapatanTertinggi?" mermaidId="n:CondMax" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pendapatan &gt; pendapatanTertinggi?" id="7Fu0j7dlHB-aniHR2cMj-314">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="424" width="424" x="748" y="7089" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pendapatanTertinggi = pendapatan" mermaidId="n:SetMax" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pendapatanTertinggi = pendapatan" id="7Fu0j7dlHB-aniHR2cMj-315">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="310" x="700" y="7582" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="pendapatan &gt; 1000000?" mermaidId="n:CondJuta" mermaidBaseStyle="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="pendapatan &gt; 1000000?" id="7Fu0j7dlHB-aniHR2cMj-316">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="rhombus;html=1;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="283" width="283" x="638" y="7686" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="hariMelebihi1Juta = hariMelebihi1Juta + 1" mermaidId="n:IncJuta" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="hariMelebihi1Juta = hariMelebihi1Juta + 1" id="7Fu0j7dlHB-aniHR2cMj-317">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="360" x="483" y="8038" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="hari = hari + 1" mermaidId="n:IncHari" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="hari = hari + 1" id="7Fu0j7dlHB-aniHR2cMj-318">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="160" x="980" y="8142" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="rataRata = totalPendapatan / 7" mermaidId="n:CalcAvg" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="rataRata = totalPendapatan / 7" id="7Fu0j7dlHB-aniHR2cMj-319">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="284" x="1053" y="6666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Print totalPendapatan,&#xa;rataRata, pendapatanTertinggi,&#xa;hariMelebihi1Juta" mermaidId="n:PrintRes" mermaidBaseStyle="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=36.5;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Print totalPendapatan,&#xa;rataRata, pendapatanTertinggi,&#xa;hariMelebihi1Juta" id="7Fu0j7dlHB-aniHR2cMj-320">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=36.5;strokeWidth=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="73" width="279" x="1055" y="6770" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="End" mermaidId="n:End" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="End" id="7Fu0j7dlHB-aniHR2cMj-321">
+          <mxCell parent="7Fu0j7dlHB-aniHR2cMj-306" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#000000);fontColor=#000000;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="39" width="60" x="1165" y="6937" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Start-&gt;Init#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-322">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-307" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-308">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Init-&gt;CondHari#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-323">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-308" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-309">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:CondHari-&gt;InputPend#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0;exitY=0.62;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-324">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-309" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0;exitY=0.62;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-310">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="780" y="6632" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:InputPend-&gt;AddTotal#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-325">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-310" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-311">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:AddTotal-&gt;CondHari1#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-326">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-311" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-312">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:CondHari1-&gt;SetMaxFirst#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0;exitY=0.67;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-327">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-312" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0;exitY=0.67;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-313">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="495" y="7054" />
+                <mxPoint x="495" y="7301" />
+                <mxPoint x="495" y="7547" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:CondHari1-&gt;CondMax#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=1;exitY=0.78;entryX=0.5;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-328">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-312" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=1;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-314">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="960" y="7054" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:CondMax-&gt;SetMax#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.29;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-329">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-314" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.29;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-315">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="855" y="7547" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:CondMax-&gt;CondJuta#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.71;exitY=1;entryX=1;entryY=0.21;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-330">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-314" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.71;exitY=1;entryX=1;entryY=0.21;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-316">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1065" y="7547" />
+                <mxPoint x="1065" y="7609" />
+                <mxPoint x="1065" y="7661" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:SetMaxFirst-&gt;CondJuta#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0;entryY=0.21;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-331">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-313" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0;entryY=0.21;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-316">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="495" y="7661" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:SetMax-&gt;CondJuta#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.73;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-332">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-315" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.73;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-316">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="855" y="7661" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ya" mermaidId="e:CondJuta-&gt;IncJuta#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.17;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Ya" id="7Fu0j7dlHB-aniHR2cMj-333">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-316" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.17;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-317">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="663" y="8004" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:CondJuta-&gt;IncHari#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=1;exitY=0.81;entryX=0.51;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-334">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-316" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=1;exitY=0.81;entryX=0.51;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-318">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1065" y="8004" />
+                <mxPoint x="1065" y="8065" />
+                <mxPoint x="1065" y="8117" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:IncJuta-&gt;IncHari#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0;entryY=0.31;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-335">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-317" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0;entryY=0.31;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-318">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="663" y="8117" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:IncHari-&gt;CondHari#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=1;exitY=0.26;entryX=1;entryY=0.78;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-336">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-318" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.26;entryX=1;entryY=0.78;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-309">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1372" y="8117" />
+                <mxPoint x="1372" y="8065" />
+                <mxPoint x="1372" y="8004" />
+                <mxPoint x="1372" y="7827" />
+                <mxPoint x="1372" y="7661" />
+                <mxPoint x="1372" y="7609" />
+                <mxPoint x="1372" y="7547" />
+                <mxPoint x="1372" y="7301" />
+                <mxPoint x="1372" y="7054" />
+                <mxPoint x="1372" y="6957" />
+                <mxPoint x="1372" y="6868" />
+                <mxPoint x="1372" y="6807" />
+                <mxPoint x="1372" y="6745" />
+                <mxPoint x="1372" y="6693" />
+                <mxPoint x="1372" y="6632" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Tidak" mermaidId="e:CondHari-&gt;CalcAvg#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="Tidak" id="7Fu0j7dlHB-aniHR2cMj-337">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-309" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-319">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:CalcAvg-&gt;PrintRes#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-338">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-319" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-320">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:PrintRes-&gt;End#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="7Fu0j7dlHB-aniHR2cMj-339">
+          <mxCell edge="1" parent="7Fu0j7dlHB-aniHR2cMj-306" source="7Fu0j7dlHB-aniHR2cMj-320" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Fu0j7dlHB-aniHR2cMj-321">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
