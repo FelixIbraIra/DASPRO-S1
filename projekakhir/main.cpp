@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 using namespace std;
 
@@ -17,7 +18,6 @@ const int HARGA_PER_JAM = 120000;
 // 2. STRUKTUR DATA (STRUCT)
 // ==========================================
 struct Reservasi {
-    string kodeBooking;
     string namaPemesan;
     int nomorLapangan;
     int jamMulai;
@@ -29,11 +29,12 @@ struct Reservasi {
 // 3. DEKLARASI FUNGSI (PROTOTYPE)
 // ==========================================
 void tampilkanMenu();
-int inputAngka(string pesan);                                                                   // [BARU DI TAHAP 2]                                                          // [BARU DI TAHAP 2]
-bool cekBentrok(const Reservasi daftar[], int jumlahData, int lapangan, int jamMulai, int durasi); // [BARU DI TAHAP 2]
+int inputAngka(string pesan);
+bool cekBentrok(const Reservasi daftar[], int jumlahData, int lapangan, int jamMulai, int durasi);
+int cariIndexSlot(const Reservasi daftar[], int jumlahData, int lapangan, int jam);
 
 void lihatJadwal(const Reservasi daftar[], int jumlahData);
-void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode);
+void buatReservasi(Reservasi daftar[], int &jumlahData);
 void cariPemesan(const Reservasi daftar[], int jumlahData);
 void batalkanReservasi(Reservasi daftar[], int &jumlahData);
 
@@ -43,7 +44,6 @@ void batalkanReservasi(Reservasi daftar[], int &jumlahData);
 int main() {
     Reservasi daftarReservasi[MAX_RESERVASI];
     int jumlahData = 0;
-    int counterKode = 1;
     int pilihan;
 
     do {
@@ -56,7 +56,7 @@ int main() {
                 lihatJadwal(daftarReservasi, jumlahData);
                 break;
             case 2:
-                buatReservasi(daftarReservasi, jumlahData, counterKode);
+                buatReservasi(daftarReservasi, jumlahData);
                 break;
             case 3:
                 cariPemesan(daftarReservasi, jumlahData);
@@ -79,7 +79,7 @@ int main() {
 }
 
 // ==========================================
-// 5. IMPLEMENTASI FUNGSI BANTU [BARU DI TAHAP 2]
+// 5. IMPLEMENTASI FUNGSI BANTU
 // ==========================================
 int inputAngka(string pesan) {
     int nilai;
@@ -92,31 +92,38 @@ int inputAngka(string pesan) {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "[!] Input tidak valid. Harap masukkan angka!" << endl;
         } else {
-            // Membersihkan sisa karakter 'Enter' di buffer agar aman untuk getline() berikutnya
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             return nilai;
         }
     }
 }
 
-
 bool cekBentrok(const Reservasi daftar[], int jumlahData, int lapangan, int jamMulai, int durasi) {
     int jamSelesaiBaru = jamMulai + durasi;
 
-    // Telusuri semua reservasi yang sudah tersimpan di array
     for (int i = 0; i < jumlahData; i++) {
-        // Cek hanya jika nomor lapangannya sama
         if (daftar[i].nomorLapangan == lapangan) {
             int jamMulaiLama = daftar[i].jamMulai;
             int jamSelesaiLama = daftar[i].jamMulai + daftar[i].durasi;
 
-            // Rumus irisan rentang waktu (Interval Overlap)
             if (jamMulai < jamSelesaiLama && jamSelesaiBaru > jamMulaiLama) {
-                return true; // Bentrok terdeteksi!
+                return true;
             }
         }
     }
-    return false; // Jadwal aman
+    return false;
+}
+
+int cariIndexSlot(const Reservasi daftar[], int jumlahData, int lapangan, int jam) {
+    for (int i = 0; i < jumlahData; i++) {
+        if (daftar[i].nomorLapangan == lapangan) {
+            int jamSelesai = daftar[i].jamMulai + daftar[i].durasi;
+            if (jam >= daftar[i].jamMulai && jam < jamSelesai) {
+                return i;
+            }
+        }
+    }
+    return -1;
 }
 
 // ==========================================
@@ -134,11 +141,58 @@ void tampilkanMenu() {
     cout << "==========================================" << endl;
 }
 
-// [BARU DI TAHAP 2] Implementasi Menu 2
-void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
+void lihatJadwal(const Reservasi daftar[], int jumlahData) {
+    cout << "================================================================================" << endl;
+    cout << "                     JADWAL & KETERSEDIAAN LAPANGAN HARI INI                    " << endl;
+    cout << "================================================================================" << endl;
+    cout << left << setw(16) << "WAKTU"
+         << setw(22) << "| LAPANGAN 1"
+         << setw(22) << "| LAPANGAN 2"
+         << setw(22) << "| LAPANGAN 3" << endl;
+    cout << "--------------------------------------------------------------------------------" << endl;
+
+    for (int jam = JAM_BUKA; jam < JAM_TUTUP; jam++) {
+        string teksJam = (jam < 10 ? "0" : "") + to_string(jam) + ":00 - " +
+                         (jam + 1 < 10 ? "0" : "") + to_string(jam + 1) + ":00";
+
+        cout << left << setw(16) << teksJam;
+
+        for (int lap = 1; lap <= JUMLAH_LAPANGAN; lap++) {
+            int idx = cariIndexSlot(daftar, jumlahData, lap, jam);
+
+            if (idx == -1) {
+                cout << left << setw(22) << "| KOSONG";
+            } else {
+                // Ruang kolom lebih lega karena tanpa kode booking (maksimal 18 karakter)
+                string namaTampil = daftar[idx].namaPemesan;
+                if (namaTampil.length() > 18) {
+                    namaTampil = namaTampil.substr(0, 17) + ".";
+                }
+                string status = "| " + namaTampil;
+                cout << left << setw(22) << status;
+            }
+        }
+        cout << endl;
+    }
+    cout << "================================================================================" << endl;
+
+    if (jumlahData > 0) {
+        cout << "\n--- RINCIAN RESERVASI AKTIF (" << jumlahData << " Transaksi) ---" << endl;
+        for (int i = 0; i < jumlahData; i++) {
+            cout << i + 1 << ". "
+                 << daftar[i].namaPemesan
+                 << " | Lapangan " << daftar[i].nomorLapangan
+                 << " | Pukul " << daftar[i].jamMulai << ":00 - " << (daftar[i].jamMulai + daftar[i].durasi) << ":00"
+                 << " | Rp " << daftar[i].totalBiaya << endl;
+        }
+    } else {
+        cout << "[INFO] Belum ada reservasi yang masuk hari ini." << endl;
+    }
+}
+
+void buatReservasi(Reservasi daftar[], int &jumlahData) {
     cout << "--- BUAT RESERVASI BARU ---" << endl;
 
-    // 1. Cek kapasitas array statis
     if (jumlahData >= MAX_RESERVASI) {
         cout << "[!] Maaf, kapasitas penyimpanan reservasi hari ini sudah penuh." << endl;
         return;
@@ -146,7 +200,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
 
     Reservasi baru;
 
-    // 2. Input nama pemesan (bisa mengandung spasi, misal: "Garuda FC")
     do {
         cout << "Nama Pemesan / Tim : ";
         getline(cin, baru.namaPemesan);
@@ -155,7 +208,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
         }
     } while (baru.namaPemesan.empty());
 
-    // 3. Input & validasi nomor lapangan (1 - 3)
     while (true) {
         baru.nomorLapangan = inputAngka("Pilih Lapangan (1-3): ");
         if (baru.nomorLapangan >= 1 && baru.nomorLapangan <= JUMLAH_LAPANGAN) {
@@ -164,7 +216,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
         cout << "[!] Lapangan hanya tersedia nomor 1 sampai " << JUMLAH_LAPANGAN << "." << endl;
     }
 
-    // 4. Input & validasi jam mulai (9 - 22)
     while (true) {
         baru.jamMulai = inputAngka("Jam Mulai (9 - 22)  : ");
         if (baru.jamMulai >= JAM_BUKA && baru.jamMulai < JAM_TUTUP) {
@@ -173,7 +224,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
         cout << "[!] Jam operasional mulai pukul " << JAM_BUKA << ":00 hingga maksimal mulai pukul " << JAM_TUTUP - 1 << ":00." << endl;
     }
 
-    // 5. Input & validasi durasi agar tidak melewati jam tutup (23:00)
     while (true) {
         baru.durasi = inputAngka("Durasi Sewa (jam)   : ");
         if (baru.durasi < 1) {
@@ -186,7 +236,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
         }
     }
 
-    // 6. Cek apakah jadwal bentrok dengan data di array
     if (cekBentrok(daftar, jumlahData, baru.nomorLapangan, baru.jamMulai, baru.durasi)) {
         cout << "\n[GAGAL] Jadwal bentrok! Lapangan " << baru.nomorLapangan
              << " sudah dipesan pada rentang pukul " << baru.jamMulai << ":00 - "
@@ -194,18 +243,14 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
         return;
     }
 
-    // 7. Hitung biaya, buat kode, dan simpan ke array
     baru.totalBiaya = baru.durasi * HARGA_PER_JAM;
 
     daftar[jumlahData] = baru;
     jumlahData++;
-    counterKode++;
 
-    // 8. Tampilkan struk konfirmasi
     cout << "\n==========================================" << endl;
     cout << "          RESERVASI BERHASIL!             " << endl;
     cout << "==========================================" << endl;
-    cout << "Kode Booking : " << baru.kodeBooking << endl;
     cout << "Nama Pemesan : " << baru.namaPemesan << endl;
     cout << "Lapangan     : Lapangan " << baru.nomorLapangan << endl;
     cout << "Waktu Main   : " << baru.jamMulai << ":00 - " << (baru.jamMulai + baru.durasi) << ":00 (" << baru.durasi << " jam)" << endl;
@@ -213,11 +258,7 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
     cout << "==========================================" << endl;
 }
 
-// Placeholder sementara (Tahap 3 & 4)
-void lihatJadwal(const Reservasi daftar[], int jumlahData) {
-    cout << "[INFO] Fitur Lihat Jadwal siap dibangun di Tahap 3." << endl;
-}
-
+// Placeholder sementara (Tahap 4)
 void cariPemesan(const Reservasi daftar[], int jumlahData) {
     cout << "[INFO] Fitur Cari Pemesan siap dibangun di Tahap 4." << endl;
 }
@@ -225,5 +266,3 @@ void cariPemesan(const Reservasi daftar[], int jumlahData) {
 void batalkanReservasi(Reservasi daftar[], int &jumlahData) {
     cout << "[INFO] Fitur Batalkan Reservasi siap dibangun di Tahap 4." << endl;
 }
-
-//nabil tes
