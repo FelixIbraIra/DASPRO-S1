@@ -29,8 +29,7 @@ struct Reservasi {
 // 3. DEKLARASI FUNGSI (PROTOTYPE)
 // ==========================================
 void tampilkanMenu();
-int inputAngka(string pesan);                                                                   // [BARU DI TAHAP 2]
-string buatKodeBooking(int counter);                                                            // [BARU DI TAHAP 2]
+int inputAngka(string pesan);                                                                   // [BARU DI TAHAP 2]                                                          // [BARU DI TAHAP 2]
 bool cekBentrok(const Reservasi daftar[], int jumlahData, int lapangan, int jamMulai, int durasi); // [BARU DI TAHAP 2]
 
 void lihatJadwal(const Reservasi daftar[], int jumlahData);
@@ -100,16 +99,6 @@ int inputAngka(string pesan) {
     }
 }
 
-string buatKodeBooking(int counter) {
-    string kode = "B";
-    if (counter < 10) {
-        kode += "00";
-    } else if (counter < 100) {
-        kode += "0";
-    }
-    kode += to_string(counter);
-    return kode;
-}
 
 bool cekBentrok(const Reservasi daftar[], int jumlahData, int lapangan, int jamMulai, int durasi) {
     int jamSelesaiBaru = jamMulai + durasi;
@@ -206,7 +195,6 @@ void buatReservasi(Reservasi daftar[], int &jumlahData, int &counterKode) {
     }
 
     // 7. Hitung biaya, buat kode, dan simpan ke array
-    baru.kodeBooking = buatKodeBooking(counterKode);
     baru.totalBiaya = baru.durasi * HARGA_PER_JAM;
 
     daftar[jumlahData] = baru;
