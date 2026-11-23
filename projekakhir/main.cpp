@@ -23,9 +23,6 @@ struct Reservasi {
     int jamMulai;
     int durasi;
     int totalBiaya;
-    int jamSelesai() const {
-        return jamMulai + durasi;
-    }
 };
 
 //kelompok terdebes
